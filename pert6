@@ -1,0 +1,29 @@
+@startuml Tugas
+
+left to right direction
+
+actor Pelanggan as P
+rectangle "Program Menu Minuman" {
+    :vector<MenuItem> menuMinuman = {
+    {"Teh", 3000},
+    {"Kopi", 5000}
+    };
+    :double total = 0.0;
+    :bool selesai = false;
+    :tampilkanMenu(menuMinuman);
+
+    while (!selesai) {
+        :int pilihan = tampilkanMenu(menuMinuman);
+        if (pilihan >= 1 && pilihan <= menuMinuman.size()) {
+            :total += menuMinuman[pilihan - 1].harga;
+            :Menampilkan pilihan dan total;
+        } else if (pilihan == 0) {
+            :selesai = true;
+        } else {
+            :Menampilkan "Pilihan tidak valid!";
+        }
+    }
+    :Menampilkan total;
+}
+
+@enduml
