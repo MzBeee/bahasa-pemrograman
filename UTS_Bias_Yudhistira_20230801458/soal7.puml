@@ -1,0 +1,56 @@
+@startuml soal6.cpp
+start
+
+:Menampilkan Menu;
+:1. Penjumlahan;
+:2. Pengurangan;
+:3. Perkalian;
+:4. Pembagian;
+:5. Keluar;
+
+:Masukkan pilihan (1-5);
+switch (Pilihan)
+case 1:
+    :Masukkan angka pertama;
+    :Baca angka pertama (a);
+    :Masukkan angka kedua;
+    :Baca angka kedua (b);
+    :Hasil penjumlahan a + b;
+    :Tampilkan hasil penjumlahan;
+    :Kembali ke Menu;
+case 2:
+    :Masukkan angka pertama;
+    :Baca angka pertama (a);
+    :Masukkan angka kedua;
+    :Baca angka kedua (b);
+    :Hasil pengurangan a - b;
+    :Tampilkan hasil pengurangan;
+    :Kembali ke Menu;
+case 3:
+    :Masukkan angka pertama;
+    :Baca angka pertama (a);
+    :Masukkan angka kedua;
+    :Baca angka kedua (b);
+    :Hasil perkalian a * b;
+    :Tampilkan hasil perkalian;
+    :Kembali ke Menu;
+case 4:
+    :Masukkan angka pertama;
+    :Baca angka pertama (a);
+    :Masukkan angka kedua;
+    :Baca angka kedua (b);
+    if (b != 0) then (Ya)
+        :Hasil pembagian a / b;
+        :Tampilkan hasil pembagian;
+    else (Tidak)
+        :Pembagian oleh nol tidak diperbolehkan;
+    endif
+    :Kembali ke Menu;
+case 5:
+    :Keluar dari program;
+    stop
+else:
+    :Pilihan tidak valid. Silakan coba lagi;
+    :Kembali ke Menu;
+endswitch
+@enduml
