@@ -1,0 +1,4 @@
+### Function of Exception Handling
+```
+Exception handling adalah mekanisme dalam pemrograman yang digunakan untuk menangani kesalahan atau kondisi tak terduga selama eksekusi program. Alih-alih menyebabkan program berhenti atau crash, exception handling memungkinkan program untuk menangkap dan merespons kesalahan tersebut dengan cara yang terkendali. Di banyak bahasa pemrograman, seperti Python, mekanisme ini biasanya diterapkan menggunakan blok kode try, except, finally, dan else. Blok try berisi kode yang mungkin menyebabkan kesalahan, blok except menangani kesalahan tersebut, blok finally menjalankan kode yang harus dijalankan terlepas dari apakah kesalahan terjadi atau tidak, dan blok else menjalankan kode jika tidak ada kesalahan yang terjadi. Exception handling membantu meningkatkan keandalan dan stabilitas program dengan memastikan bahwa kesalahan ditangani secara tepat tanpa menghentikan seluruh aplikasi.
+```

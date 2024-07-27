@@ -1,0 +1,4 @@
+### Pengertian GUI
+```
+GUI (Graphical User Interface) adalah antarmuka pengguna yang memungkinkan interaksi dengan perangkat lunak atau perangkat keras melalui elemen grafis seperti jendela, ikon, tombol, dan menu. GUI memberikan cara yang lebih intuitif dan visual untuk berinteraksi dengan sistem dibandingkan dengan antarmuka baris perintah (CLI), yang hanya menggunakan teks. Dengan GUI, pengguna dapat melakukan tindakan dengan mengklik, menyeret, atau memilih elemen grafis alih-alih mengetikkan perintah. GUI sering digunakan dalam aplikasi desktop, perangkat mobile, dan web untuk membuat pengalaman pengguna yang lebih ramah dan mudah diakses. Contoh GUI yang umum meliputi sistem operasi seperti Windows dan macOS, aplikasi seperti Microsoft Office, dan aplikasi web seperti Gmail.
+```

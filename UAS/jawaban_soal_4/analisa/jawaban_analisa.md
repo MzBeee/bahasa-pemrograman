@@ -1,0 +1,4 @@
+### bagaimana apk bisa berkomunikasi dengan database dari sisi bahasa pemrograman python ini
+```
+Untuk membuat aplikasi Python yang dapat berkomunikasi dengan database, Anda bisa menggunakan berbagai pustaka seperti sqlite3 untuk SQLite, mysql-connector-python untuk MySQL, dan psycopg2 untuk PostgreSQL. Pertama, instal pustaka yang sesuai dengan basis data pilihan Anda. Selanjutnya, buat koneksi ke database menggunakan pustaka tersebut, lalu buat cursor untuk menjalankan perintah SQL seperti membuat tabel, menambahkan data, dan mengambil data. Setelah melakukan operasi yang diperlukan, pastikan untuk melakukan commit jika ada perubahan data dan menutup koneksi ke database. Contoh kode sederhana bisa melibatkan pembuatan tabel, memasukkan data, dan mengambil data untuk ditampilkan, semua dilakukan dengan perintah SQL yang dieksekusi melalui cursor yang terhubung ke database.
+```
